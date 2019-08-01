@@ -1,0 +1,9 @@
+使用场景为 thinkphp5
+
+1、wxpay 文科放在 vendor目录下，可直接复制使用，修改部分业务参数。
+2、cert存放的是验证证书，退款时需要使用，在微信商户后台申请下载。
+3、WeiXinPay.php 为 微信支付统一下单和支付成功回调方法类。
+4、WeiXinRefund.php 为 微信退款调用方法类。
+
+5、OrderController.php 后台退款调用方法
+6、WxPayController.php 支付统一下单、支付成功回调类
